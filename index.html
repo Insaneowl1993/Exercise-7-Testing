@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prime Verifier</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="./src/verifier.js"></script>
+    <script type="module">
+    import { isPrime } from "./src/verifier.js";
+    window.isPrime = isPrime;
+    </script>
+</head>
+<body>
+    <!-- TODO: Add necessary scripts and additional elements as required -->
+    <input type="number" id="number" placeholder="Enter a number">
+    <button type="submit" onclick="document.getElementById('result').innerText = isPrime(document.getElementById('number').value)"> Check if Prime</button>
+    <p id="result"></p>
+
+
+</body>
+</html>

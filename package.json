@@ -1,0 +1,23 @@
+{
+  "name": "module-1-exercise-7",
+  "version": "1.0.0",
+  "description": "A hands-on exercise to delve deep into the concept of formal reasoning in software engineering.",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "dev": "vitest watch",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "Isaac Johnston <isaac@superstruct.nz>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@testing-library/webdriverio": "^3.2.1",
+    "@vitest/ui": "^0.34.6",
+    "@wdio/cli": "^8.20.5",
+    "@wdio/local-runner": "^8.20.5",
+    "@wdio/mocha-framework": "^8.20.3",
+    "@wdio/spec-reporter": "^8.20.0",
+    "vitest": "^0.34.6",
+    "wdio-vite-service": "^1.0.4"
+  }
+}
